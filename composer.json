@@ -1,0 +1,10 @@
+{
+    "name": "raulfraile/ladybug-theme-modern",
+    "type": "ladybug-theme",
+    "description": "Modern theme for ladybug",
+    "keywords": ["ladybug", "theme"],
+    "license": "MIT",
+    "require": {
+
+    }
+}
