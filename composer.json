@@ -5,6 +5,6 @@
     "keywords": ["ladybug", "theme"],
     "license": "MIT",
     "require": {
-
+        "raulfraile/ladybug-installer": "dev-master"
     }
 }
