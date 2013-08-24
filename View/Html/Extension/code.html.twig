@@ -6,7 +6,7 @@
 {% block type %}<i class="icon-file"></i> {{ var.title }}{% endblock %}
 
 {% block value %}
-    <textarea id="code" style="font-weight: normal">{{ var.data }}</textarea>
+    <textarea id="code" style="font-weight: normal">{{ var.content }}</textarea>
 
     <script>
         var editor = CodeMirror.fromTextArea(document.getElementById("code"), {

@@ -2,7 +2,7 @@
 
 {% set composed = true %}
 
-{% block type%}<i class="icon-list"></i> {{ var.title }} ({{ var.length }}){% endblock %}
+{% block type%}<i class="icon-list"></i> {{ var.title }} ({{ var|length }}){% endblock %}
 
 {% block value %}
     {% for item in var.items %}
