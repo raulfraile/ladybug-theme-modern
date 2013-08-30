@@ -6,5 +6,8 @@
     "license": "MIT",
     "require": {
         "raulfraile/ladybug-installer": "dev-master"
+    },
+    "extra": {
+        "ladybug_name": "Modern"
     }
 }
