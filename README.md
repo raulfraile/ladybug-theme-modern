@@ -8,7 +8,7 @@ LadybugPHP "Modern" theme
 
 "Modern" is a clean and beautiful theme for [LadybugPHP](https://github.com/raulfraile/ladybug) based on Twitter Bootstrap.
 
-<img style="border:1px solid #ccc; padding:1px" src="https://github.com/raulfraile/ladybug-theme-modern/raw/master/doc/images/datetime.png" />
+<img style="border:1px solid #ccc; padding:1px" src="https://github.com/raulfraile/ladybug-theme-modern/raw/master/Resources/doc/images/datetime.png" />
 
 ## Installation
 
