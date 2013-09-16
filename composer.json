@@ -2,7 +2,7 @@
     "name": "raulfraile/ladybug-theme-modern",
     "type": "ladybug-theme",
     "description": "Modern theme for ladybug",
-    "version": "1.0.0-beta1",
+    "version": "1.0.0-beta2",
     "keywords": ["ladybug", "theme"],
     "license": "MIT",
     "require": {
