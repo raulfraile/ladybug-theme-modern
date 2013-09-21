@@ -16,16 +16,18 @@
 
             <span class="">{% block type %}{{ var.type }}{% endblock %}</span>
             {% if not composed %}
-                <span class="type_{{ var.type }}">{% block inline_value %}{{ var.formattedValue }}{% endblock %}</span>
+            <span class="type_{{ var.type }}">{% block inline_value %}{{ var.formattedValue }}{% endblock %}</span>
             {% endif %}
+
+            {% block header_extra %}{% endblock %}
         </a>
     </div>
 
     {% if composed %}
-        <div id="c{{ var.id }}" class="accordion-body no-transition collapse {% if (expanded == true or type_expanded) and not var.terminal %}in{% endif %}">
-            <div class="accordion-inner">
-                {% block value %}{% endblock %}
-            </div>
+    <div id="c{{ var.id }}" class="accordion-body no-transition collapse {% if (expanded == true or type_expanded) and not var.terminal %}in{% endif %}">
+        <div class="accordion-inner">
+            {% block value %}{% endblock %}
         </div>
+    </div>
     {% endif %}
 </div>

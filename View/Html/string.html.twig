@@ -3,3 +3,9 @@
 {% block type %}{{ parent() }} ({{ var.length }}){% endblock %}
 
 {% block inline_value %}{{ var.inlineValue }}{% endblock %}
+
+{% block header_extra %}
+    <span class="pull-right">
+        <span class="label label-inverse">{{ var.encoding }}</span>
+    </span>
+{% endblock %}
