@@ -1,12 +1,12 @@
 {
     "name": "raulfraile/ladybug-theme-modern",
     "type": "ladybug-theme",
-    "description": "Modern theme for ladybug",
-    "version": "1.0.0-beta2",
-    "keywords": ["ladybug", "theme"],
+    "description": "Theme 'modern' for ladybug",
+    "version": "1.0.0",
+    "keywords": ["ladybug", "dump", "var_dump", "print_r", "theme"],
     "license": "MIT",
     "require": {
-        "raulfraile/ladybug-installer": "1.0.0-beta2"
+        "raulfraile/ladybug-installer": "~1.0.0"
     },
     "extra": {
         "ladybug_name": "Modern"
