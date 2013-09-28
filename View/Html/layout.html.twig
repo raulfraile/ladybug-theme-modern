@@ -9,7 +9,7 @@
 <script type="text/template" id="ladybug_js_bottom_{{ id }}">
     function callResizer() {
         var lastElementOffset = $('#last_element').position();
-        window.parent.resizeIframe(lastElementOffset.top, lastElementOffset.left);
+        window.parent.resizeIframe{{ id }}(lastElementOffset.top, lastElementOffset.left);
     }
 
     $('.accordion-body').on('shown', function () {
