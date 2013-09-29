@@ -135,6 +135,20 @@
     background-repeat: no-repeat;
 }
 
+.metadata-yolo
+{
+    background-image: url(../images/yolo.png);
+    background-position: right 5px;
+    background-repeat: no-repeat;
+}
+
+.metadata-stack
+{
+    background-image: url(../images/stack.png);
+    background-position: right -13px;
+    background-repeat: no-repeat;
+}
+
 .trans {
     background: url(../images/trans.gif);
     padding-top: 10px;
