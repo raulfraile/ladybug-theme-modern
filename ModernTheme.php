@@ -72,7 +72,7 @@ class ModernTheme extends AbstractTheme implements HtmlThemeInterface
             'lib/codemirror/mode/htmlmixed/htmlmixed.js',
             'lib/codemirror/mode/htmlembedded/htmlembedded.js',
             'lib/codemirror/mode/javascript/javascript.js',
-            'lib/codemirror/mode/httpd/httpd.js',
+            'lib/codemirror/mode/http/http.js',
             'lib/codemirror/mode/php/php.js',
             'lib/codemirror/mode/xml/xml.js'
         );
