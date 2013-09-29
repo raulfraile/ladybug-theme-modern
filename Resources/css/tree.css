@@ -114,6 +114,27 @@
     background-repeat: no-repeat;
 }
 
+.metadata-gd
+{
+    background-image: url(../images/gd.png);
+    background-position: right -24px;
+    background-repeat: no-repeat;
+}
+
+.metadata-propel
+{
+    background-image: url(../images/propel.png);
+    background-position: right -10px;
+    background-repeat: no-repeat;
+}
+
+.metadata-laravel
+{
+    background-image: url(../images/laravel.png);
+    background-position: right -20px;
+    background-repeat: no-repeat;
+}
+
 .trans {
     background: url(../images/trans.gif);
     padding-top: 10px;
