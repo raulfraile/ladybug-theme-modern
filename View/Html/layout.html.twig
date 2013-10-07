@@ -31,7 +31,10 @@
         {% endfor %}
 
         <div class="clearfix">
-            <span class="label label-important pull-right">{{ callFile }} : {{ callLine }}</span>
+            {% if xdebugLink is null %}
+                {% set xdebugLink = '#' %}
+            {% endif %}
+            <span class="label label-important pull-right file_line"><a href="{{ xdebugLink }}">{{ callFile }} : {{ callLine }}</a></span>
         </div>
 
     </div>
