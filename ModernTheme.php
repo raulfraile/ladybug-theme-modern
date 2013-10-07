@@ -52,7 +52,7 @@ class ModernTheme extends AbstractTheme implements HtmlThemeInterface
         return array(
             'lib/bootstrap/css/bootstrap.min.css',
             'lib/codemirror/lib/codemirror.css',
-            'css/tree.css'
+            'css/styles.css'
         );
     }
 
