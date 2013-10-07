@@ -1,4 +1,3 @@
-
 .ladybug .dump-block {
     margin-bottom: 3px;
     display: block;
@@ -26,14 +25,7 @@
     font-weight: normal;
 }
 
-
-
-
 .collapse {
-    /*-webkit-transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;*/
     transition: height 0.02s;
     -webkit-transition: height 0.02s;
     -moz-transition: height 0.02s;
@@ -41,9 +33,11 @@
 }​
 
 /* types */
+
 .type_int {
     color: #800;
 }
+
 .type_float {
     color: #800;
 }
@@ -58,6 +52,7 @@
 
 }
 
+/* metadatas */
 .metadata-php
 {
     background-image: url(../images/php.png);
