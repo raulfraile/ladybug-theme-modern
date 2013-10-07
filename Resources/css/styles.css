@@ -154,3 +154,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+.header_extra {
+    font-size: 14px;
+    font-style: italic;
+    color: #aaa;
+}
