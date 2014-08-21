@@ -1,7 +1,3 @@
-
-
-
-
 {% macro array_key(key) %}
     {% if key is not empty %}
         <span class="label label-info">
@@ -112,9 +108,9 @@
 {% endmacro %}
 
 {% macro visibility_color(visibility) %}
-    {% if visibility == constant('Ladybug\\Type\\ObjectType\\VisibilityInterface::VISIBILITY_PRIVATE') %}
+    {% if visibility == constant('Ladybug\\Type\\Object\\VisibilityInterface::VISIBILITY_PRIVATE') %}
         label-important
-    {% elseif visibility == constant('Ladybug\\Type\\ObjectType\\VisibilityInterface::VISIBILITY_PROTECTED') %}
+    {% elseif visibility == constant('Ladybug\\Type\\Object\\VisibilityInterface::VISIBILITY_PROTECTED') %}
         label-warning
     {% else %}
         label-success
